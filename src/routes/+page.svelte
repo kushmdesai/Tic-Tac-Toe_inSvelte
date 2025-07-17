@@ -2,13 +2,13 @@
 <p>Visit <a href="https://www.github.com/kushmdesai/" target="_blank" rel="noopener noreferrer" >my github repo</a> to see the code</p>
 <br>
 <script>
-  let board = Array(9).fill(null);
+  let board = Array(9).fill(null); /*make nine boxes*/
 </script>
 
-<style>
-    a:hover {
-        color: #0000ff;
-    }
+<style> /*a ton of css, doesn't look that good yet*/
+   a:hover {
+    color: #0000ff;
+   }
    .container {
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@
     background-color: #ff0000;
   }
   :global(body) {
-  background-color: #f4ecd8;  /*aged paper color if png does not work*/
+  background-color: #f4ecd8;  /*aged paper color if url of png does not work*/
   background-image: url(https://t3.ftcdn.net/jpg/03/66/10/14/360_F_366101427_8yazUJK82fDrLi4YtpnQO3DJ4dTygxoe.jpg);
   background-repeat: no-repeat;
   background-position: center;
